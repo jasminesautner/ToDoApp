@@ -13,6 +13,7 @@
 		DE780F491F14982700218104 /* ToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE780F471F14982700218104 /* ToDoApp.xcdatamodeld */; };
 		DE780F4B1F14982700218104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE780F4A1F14982700218104 /* Assets.xcassets */; };
 		DE780F4E1F14982700218104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE780F4C1F14982700218104 /* LaunchScreen.storyboard */; };
+		DE780F561F14998C00218104 /* AddTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE780F551F14998C00218104 /* AddTaskVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DE780F4A1F14982700218104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE780F4D1F14982700218104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE780F4F1F14982700218104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE780F551F14998C00218104 /* AddTaskVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				DE780F401F14982700218104 /* AppDelegate.swift */,
 				DE780F421F14982700218104 /* ViewController.swift */,
+				DE780F551F14998C00218104 /* AddTaskVC.swift */,
 				DE780F441F14982700218104 /* Main.storyboard */,
 				DE780F4A1F14982700218104 /* Assets.xcassets */,
 				DE780F4C1F14982700218104 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				DE780F431F14982700218104 /* ViewController.swift in Sources */,
 				DE780F491F14982700218104 /* ToDoApp.xcdatamodeld in Sources */,
 				DE780F411F14982700218104 /* AppDelegate.swift in Sources */,
+				DE780F561F14998C00218104 /* AddTaskVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +274,7 @@
 				DEVELOPMENT_TEAM = T529BUT452;
 				INFOPLIST_FILE = ToDoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ToDoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alickzhang.ToDoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -283,7 +287,7 @@
 				DEVELOPMENT_TEAM = T529BUT452;
 				INFOPLIST_FILE = ToDoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ToDoApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alickzhang.ToDoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
